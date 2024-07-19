@@ -1,0 +1,69 @@
+body {
+    color: white;
+}
+
+#welcome {
+    font-size: 4rem;
+}
+
+    
+/* #root > div:nth-child(2) > div > div > div > div.image-gallery-slide-wrapper.image-gallery-thumbnails-bottom > div > div{ */
+    /* border-radius: 5px 5px 5px 5px;
+    border-width: 5px; */
+    /* border-color: rgb(166, 0, 255); */
+/* } */
+
+.image-gallery-thumbnail:hover {
+    outline: none !important;
+    border: 4px solid rgb(166, 0, 255) !important;
+    border-radius: 10px;
+
+}
+
+.image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus {
+    outline: none !important;
+    border: 4px solid rgb(166, 0, 255) !important;
+    border-radius: 10px;
+
+}
+
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+    height: 120px;
+    width: 60px;
+    color: rgb(166, 0, 255);
+    border-radius: 10px;
+
+}
+
+#root > div:nth-child(2) > div > div > div > div.image-gallery-slide-wrapper.image-gallery-thumbnails-bottom > button.image-gallery-icon.image-gallery-fullscreen-button > svg{
+    stroke: rgb(166, 0, 255);
+}
+
+#root > div:nth-child(2) > div > div > div > div.image-gallery-slide-wrapper.image-gallery-thumbnails-bottom > button.image-gallery-icon.image-gallery-play-button > svg{
+    stroke: rgb(166, 0, 255);
+}
+
+#intro {
+    /* font-size: 2rem; */
+    justify-content: left;
+    /* margin-bottom: 30px;  */
+
+
+}
+
+#intro-cont {
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(166, 0, 255);
+    margin-bottom: 30px; 
+
+
+
+}
+
+/* #spacing {
+    margin-bottom: 200px; 
+} */

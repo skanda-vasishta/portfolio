@@ -1,0 +1,48 @@
+/* Footer.css */
+.footer {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footerContainer {
+    max-width: 1200px; /* Optional: to center the content */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    color: rgb(0, 213, 255);
+}
+
+.footer-text {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
