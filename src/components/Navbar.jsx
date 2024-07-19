@@ -18,10 +18,10 @@ const Navbar = () => {
           {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
         </div>
         <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-          <li className="nav-item"><a href="/portfolio/home">Home</a></li>
-          <li className="nav-item"><a href="/portfolio/about">About</a></li>
-          <li className="nav-item"><a href="/portfolio/#projects">Projects</a></li>
-          <li className="nav-item"><a href="/portfolio/#contact">Contact</a></li>
+          <li className="nav-item"><a href="#/portfolio/home">Home</a></li>
+          <li className="nav-item"><a href="#/portfolio/about">About</a></li>
+          <li className="nav-item"><a href="#/portfolio/#projects">Projects</a></li>
+          <li className="nav-item"><a href="#/portfolio/#contact">Contact</a></li>
         </ul>
       </div>
     </div>
