@@ -1,12 +1,18 @@
 body {
     color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
 #welcome {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
     
+#intro{
+    font-size: 2rem;
+}
 /* #root > div:nth-child(2) > div > div > div > div.image-gallery-slide-wrapper.image-gallery-thumbnails-bottom > div > div{ */
     /* border-radius: 5px 5px 5px 5px;
     border-width: 5px; */
@@ -66,4 +72,9 @@ body {
 
 /* #spacing {
     margin-bottom: 200px; 
+} */
+
+/* #root > div:nth-child(2){
+    margin-left: 10%;
+    margin-right: 10%;
 } */

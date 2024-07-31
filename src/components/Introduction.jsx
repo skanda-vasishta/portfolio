@@ -6,11 +6,13 @@ import './Page.css'; // Assuming you have a CSS file for styling
 const Introduction = () => {
     return (
         <div id="intro-cont">
+        <h1 id="welcome">Welcome! </h1>
+
             {/* <h2 id="intro">A Brief Introduction</h2> */}
             <p id="intro">Hey everyone! My name is Skanda Vasishta, and this is my personal website/portfolio. 
             I'll be entering my third year at UC Santa Barbara in Fall, where I study Computer Science.
             Some interesting things about me are that I enjoy watching and playing sports and listening to music. 
-            Below are some pictures of me.
+            To the right are some pictures of me.
             </p>
         </div>
     );

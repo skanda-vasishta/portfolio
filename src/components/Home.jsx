@@ -9,10 +9,18 @@ const Home = () => {
     return (
         
         <div>
-            <h1 id="welcome">Welcome! </h1>
             {/* <p>Welcome to the Home Page!</p> */}
-            <Introduction />
-            <ImageGalleryComponent id="spacing" />
+            <div className='row'>
+                <div   className='col-md-7'>
+                    <Introduction />
+                </div>
+                <div className='col-md-5'>
+                    <ImageGalleryComponent id="spacing" />
+                </div>
+                {/* <Introduction />
+                <ImageGalleryComponent id="spacing" /> */}
+            </div>
+            
         </div>
     );
 };
