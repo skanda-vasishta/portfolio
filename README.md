@@ -1,1 +1,1 @@
-# Just building a lil personal website, was probably overdue.
+# Just building a personal website, was probably overdue.
