@@ -21,14 +21,14 @@ const Navbar = () => {
         </div>
         <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
           <li>
-            <Link to="/" style={{ color: 'rgb(166, 0, 255)', textDecoration: 'none' , fontSize: '25px'}}>Home</Link>
+            <Link to="/" style={{ color: 'rgb(0, 0, 0)', textDecoration: 'none' , fontSize: '25px'}}>Home</Link>
           </li>
           <li>
-            <Link to="/about" style={{ color: 'rgb(166, 0, 255)', textDecoration: 'none' , fontSize: '25px'}}>About</Link>
+            <Link to="/about" style={{ color: 'rgb(0, 0, 0)', textDecoration: 'none' , fontSize: '25px'}}>About</Link>
           </li>
-          <li>
-            <Link to="/contact" style={{ color: 'rgb(166, 0, 255)', textDecoration: 'none' , fontSize: '25px'}}>Contact</Link>
-          </li>
+          {/* <li>
+            <Link to="/contact" style={{ color: 'rgb(0, 0, 0)', textDecoration: 'none' , fontSize: '25px'}}>Contact</Link>
+          </li> */}
         </ul>
       </div>
     </div>
