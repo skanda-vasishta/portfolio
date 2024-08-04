@@ -19,6 +19,10 @@ const Experience = ({ items }) => {
 
   const handleClose = () => setShowModal(false);
 
+  const handleImageClick = (link) => {
+    window.open(link, '_blank');
+  };
+
   return (
     <>
       <Row xs={1} md={2} className="g-4 experience-row">
@@ -26,7 +30,12 @@ const Experience = ({ items }) => {
           <Col key={idx} className="experience-col">
             <div className="experience-container">
               <div className="experience-image-container">
-                <img src={item.imageUrl} alt={item.title} className="experience-image" />
+                <img
+                  src={item.imageUrl}
+                  alt={item.title}
+                  className="experience-image"
+                  onClick={() => handleImageClick(item.link)} // Handle image click
+                />
               </div>
               <Card
                 className="experience-card"
