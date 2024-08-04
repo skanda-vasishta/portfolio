@@ -73,3 +73,6 @@ body {
     margin-right: 10%;
 } */
 
+#root > div.about-container > section{
+    margin-top: 2%;
+}

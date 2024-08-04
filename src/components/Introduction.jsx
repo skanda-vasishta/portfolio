@@ -11,8 +11,8 @@ const Introduction = () => {
             {/* <h2 id="intro">A Brief Introduction</h2> */}
             <p id="intro">Hey everyone! My name is Skanda Vasishta, and this is my personal website/portfolio. 
             I'll be entering my third year at UC Santa Barbara in Fall, where I study Computer Science.
-            Some interesting things about me are that I enjoy watching and playing sports and listening to music. 
-            You'll be blessed with some pictures of me either to the right or below, depending on what type of device you're on.  
+            I guess this is my personal website or whatever, so if you want to know more about me you can either navigate
+            to the About section, or follow me on my socials below. 
             </p>
 
         </div>

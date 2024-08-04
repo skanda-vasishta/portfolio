@@ -1,0 +1,20 @@
+.skills-container {
+    /* margin: 0 auto; */
+    /* max-width: 800px;  */
+    /* padding: -40px; */
+    text-align: center;
+  }
+  
+  .simple-cloud {
+    cursor: pointer;
+  }
+  
+  .simple-cloud span {
+    margin: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .simple-cloud span:hover {
+    transform: scale(1.1);
+  }
+  

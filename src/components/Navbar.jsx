@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container" id="navContainer">
-        <h1 className="logo">Skanda's Portfolio</h1>
+        <h1 className="logo">Skanda's Website</h1>
         <div className="menu-icon" onClick={handleNav}>
           {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
         </div>

@@ -3,6 +3,7 @@ import React from 'react';
 import './Page.css'; // Assuming you have a CSS file for styling
 import ImageGalleryComponent from './ImageGalleryComponent';
 import Introduction from './Introduction';
+import Socials from './Socials';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <div className='row'>
                 <div   className='col-md-7'>
                     <Introduction />
+                    <Socials/>
                 </div>
                 <div className='col-md-5'>
                     <ImageGalleryComponent id="spacing" />
