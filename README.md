@@ -1,3 +1,3 @@
-# Just building a personal website, was probably overdue.
+# https://skanda-vasishta.github.io/portfolio/
 
 Made with React.js 
