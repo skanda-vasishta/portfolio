@@ -9,10 +9,12 @@ const Introduction = () => {
         <h1 id="welcome">Welcome! </h1>
 
             {/* <h2 id="intro">A Brief Introduction</h2> */}
-            <p id="intro">Hey everyone! My name is Skanda Vasishta, and this is my personal website/portfolio. 
-            I'll be entering my third year at UC Santa Barbara in Fall, where I study Computer Science.
-            I guess this is my personal website or whatever, so if you want to know more about me you can either navigate
-            to the About section, or follow me on my socials below. 
+            <p id="intro">Hey everyone! I'm Skanda, a computer science major at UC Santa Barbara heading into my third year. 
+            I'm passionate about the incredible advancements in software and technology, and I'm always excited to be a part of that innovation.
+             My interests span across full-stack development, deep and machine learning (particularly NLP), data science, and computer architecture.
+            I'm skilled in languages like C++, Python, and JavaScript, and I work with frameworks like React, Django, and Node.js. 
+            I also have experience with cloud platforms like AWS and machine learning libraries like PyTorch and Tensorflow. I'd love to connect with you on any of my socials, which you can find below!,
+
             </p>
 
         </div>
