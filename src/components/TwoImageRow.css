@@ -1,0 +1,11 @@
+.two-image-row {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center;    /* Center the images vertically */
+    gap: 10px;              /* Space between the images */
+}
+
+.image {
+    max-width: 100%;        /* Make sure the images are responsive */
+    height: auto;           /* Maintain the aspect ratio */
+}

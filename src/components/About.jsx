@@ -8,16 +8,16 @@ import Skills from './Skills'
 import './Page.css'; 
 const experienceData = [
     {
-        title: 'Full Stack Web Developer Intern',
+        title: 'Full Stack Web Development Intern',
         company: 'NOAA CINMS',
-        text: 'Developing end-to-end full-stack project utilizing PHP for backend systems and API development, JavaScript for interactive frontend components, and MySQL for efficient data management, enhancing system performance and user experience. Integrated REST APIs to develop custom plugins and enhance site functionality, enabling efficient data exchange and interaction between client-side applications and the backend. Designed and implemented responsive, Bootstrap-enabled user interface for cross-device compatibility. Designing and implementing robust data pipeline to process and analyze oceanic and atmospheric information, translating complex scientific data into accessible, user-friendly formats.',
+        text: ' Developing end-to-end full-stack project utilizing PHP for backend systems and API development, JavaScript for interactive frontend components, and MySQL for efficient data management, enhancing system performance and user experience. Integrated REST APIs to develop custom plugins and enhance site functionality, enabling efficient data exchange and interaction between client-side applications and the backend. Designing and automating data pipeline using Python and Apache Airflow to efficiently process, analyze, and manage oceanic and atmospheric data. Developing a RAG pipeline utilzing Langchain, ChromaDB vector database, and OpenAI API to implement a generative search feature, providing accurate, context-aware search results for the site.',
         imageUrl: 'https://pbs.twimg.com/profile_images/1451221298277875717/sEfSx43N_400x400.jpg',
         link: 'https://channelislands.noaa.gov/'
     },
     {
         title: 'Undergraduate Researcher',
         company: 'UCSB ArchLab',
-        text: "Researched and developed a novel hardware decompilation technique for reverse engineering computer hardware from Verilog netlists. Utilized Python circuit modeling libraries to develop a graph algorithm-based approach for identifying standard library modules within netlists, achieving a mean simulation speedup of 9× and a maximum speedup of 35× Conducted experiments and created benchmarks to test algorithm's accuracy and speedup. Automated data collection and analysis through Python, facilitating visualization and modeling.",
+        text: "Utilized Python circuit modeling libraries to develop a graph algorithm-based approach for identifying standard library modules within netlists, achieving a mean simulation speedup of 900% and a maximum speedup of 3500%. Conducted experiments and created benchmarks to test algorithm’s accuracy and speedup. Automated data collection and analysis through Python, facilitating visualization and modeling.",
         imageUrl: 'https://www.ce.ucsb.edu/sites/default/files/styles/medium/public/2020-12/archlab-800-sw_0.jpg?h=dab54920&itok=OLhyw9Lv',
         link: 'https://www.arch.cs.ucsb.edu/'
     }
@@ -38,10 +38,10 @@ const projectList = [
       description: 'Developed an edtech application for ranking professors and classes based on student preferences. Built the frontend with React Native and the backend with Node.js and Express, using MongoDB for data management. Scraped data with Python and BeautifulSoup, and integrated Google Cloud Natural Language Processing API for sentiment analysis to generate detailed rankings',
     },
     {
-        title: 'Mycelium: Module Finding with Functional Netlist Representation',
+        title: 'Algorithmic Techniques for Hardware Decompilation',
         subtitle: 'June 2024',
         brief: 'A novel algorithmic technique for reverse engineering hardware designs',
-        description: 'Employs a functional representation and a bottom-up matching algorithm to efficiently identify and extract standard library modules from large designs. Addresses the scalability issues of existing methods, improving simulation speed and accuracy. Submitted to ASPLOS conference, currently in review for publication.',
+        description: 'Employs a functional representation and a bottom-up matching algorithm to efficiently identify and extract standard library modules from large designs. Addresses the scalability issues of existing methods, improving simulation speed and accuracy.',
       },
   ];
 

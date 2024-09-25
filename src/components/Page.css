@@ -76,3 +76,7 @@ body {
 #root > div.about-container > section{
     margin-top: 2%;
 }
+#root > div:nth-child(2) > div > div:nth-child(1) > div > div > p{
+    font-size: 20px;
+}
+

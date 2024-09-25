@@ -12,13 +12,16 @@ const Home = () => {
         <div>
             {/* <p>Welcome to the Home Page!</p> */}
             <div className='row'>
-                <div   className='col-md-7'>
+                {/* <div   className='col-md-7'> */}
                     <Introduction />
-                    <Socials/>
-                </div>
-                <div className='col-md-5'>
+                    {/* <Socials/> */}
+                {/* </div> */}
+                {/* <div className='col-md-5'> */}
                     <ImageGalleryComponent id="spacing" />
-                </div>
+
+                    {/* <Socials/> */}
+
+                {/* </div> */}
                 {/* <Introduction />
                 <ImageGalleryComponent id="spacing" /> */}
             </div>

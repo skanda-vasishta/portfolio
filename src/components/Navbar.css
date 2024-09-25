@@ -2,7 +2,7 @@
    /* Custom Navbar Styling */
    .navbar {
        /* color: #fff; */
-       background-color: #fff;
+       /* background-color: #fff; */
        padding: 20px 20px;
        margin-bottom: 20px;
        margin-top: 40px;
@@ -75,3 +75,7 @@
        }
    }
    
+
+   #navContainer > div{
+    color: white;
+   }
