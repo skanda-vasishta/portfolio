@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link to="/" style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none' , fontSize: '25px'}}>Home</Link>
           </li>
           <li>
-            <Link to="/about" style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none' , fontSize: '25px'}}>About</Link>
+            <Link to="/experience" style={{ color: 'rgb(255, 255, 255)', textDecoration: 'none' , fontSize: '25px'}}>Experience</Link>
           </li>
           {/* <li>
             <Link to="/contact" style={{ color: 'rgb(0, 0, 0)', textDecoration: 'none' , fontSize: '25px'}}>Contact</Link>

@@ -10,10 +10,12 @@ const Experience = ({ items }) => {
   const [showModal, setShowModal] = useState(false);
   const [modalTitle, setModalTitle] = useState('');
   const [modalText, setModalText] = useState('');
+  const [modalSkills, setModalSkills] = useState('');
 
   const handleCardClick = (item) => {
     setModalTitle(item.company);
     setModalText(item.text);
+    setModalSkills(item.skills || '');
     setShowModal(true);
   };
 
@@ -45,7 +47,10 @@ const Experience = ({ items }) => {
               >
                 <Card.Body className="experience-card-body">
                   <Card.Title>{item.title}</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">{item.company}</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 experience-company">{item.company}</Card.Subtitle>
+                  {item.date && (
+                    <div className="experience-date">{item.date}</div>
+                  )}
                 </Card.Body>
               </Card>
             </div>
@@ -53,11 +58,18 @@ const Experience = ({ items }) => {
         ))}
       </Row>
 
-      <Modal show={showModal} onHide={handleClose} centered>
+      <Modal show={showModal} onHide={handleClose} centered size="lg">
         <Modal.Header closeButton>
           <Modal.Title>What I Do At {modalTitle}:</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{modalText}</Modal.Body>
+        <Modal.Body>
+          <div className="modal-description">{modalText}</div>
+          {modalSkills && (
+            <div className="modal-skills">
+              <strong>Technologies & Skills:</strong> {modalSkills}
+            </div>
+          )}
+        </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

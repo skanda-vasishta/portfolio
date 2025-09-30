@@ -1,4 +1,4 @@
-// src/components/NoPage.jsx
+// src/pages/NoPage.jsx
 import React from 'react';
 
 const NoPage = () => {

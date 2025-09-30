@@ -1,11 +1,37 @@
 .two-image-row {
     display: flex;
-    justify-content: center; /* Center the images horizontally */
-    align-items: center;    /* Center the images vertically */
-    gap: 10px;              /* Space between the images */
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 2rem 0;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
 .image {
-    max-width: 100%;        /* Make sure the images are responsive */
-    height: auto;           /* Maintain the aspect ratio */
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.image:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+    border-color: rgba(102, 126, 234, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .two-image-row {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
 }
