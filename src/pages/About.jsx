@@ -1,4 +1,4 @@
-// src/pages/ExperiencePage.jsx
+// src/pages/About.jsx
 import React from 'react';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
@@ -10,9 +10,10 @@ const educationData = [
   {
     school: 'University of California, Santa Barbara',
     location: 'Santa Barbara, CA',
+    date: 'Sep 2022 - Dec 2026',
     degrees: [
-      { name: 'Bachelor of Science, Computer Science', gpa: '3.87', date: 'Sep 2022 - Dec 2025' },
-      { name: 'Master of Science, Computer Science', date: 'Jan 2026 - Dec 2026' }
+      { name: 'Bachelor of Science in Computer Science', gpa: '3.87' },
+      { name: 'Master of Science in Computer Science (starting Jan 2026)' }
     ],
     courses: 'Data Structures/Algorithms, Operating Systems, Databases, Artificial Intelligence, Deep Learning, Networks, Compilers, Computer Architecture, Object-Oriented Programming',
     honors: '8x Engineering Dean\'s Honors List, Engineering Honors'
@@ -133,7 +134,7 @@ const projectList = [
   }
 ];
 
-const ExperiencePage = () => {
+const About = () => {
   return (
     <div className="about-container">
       <div className="about-hero">
@@ -177,4 +178,4 @@ const ExperiencePage = () => {
   );
 };
 
-export default ExperiencePage;
+export default About;
